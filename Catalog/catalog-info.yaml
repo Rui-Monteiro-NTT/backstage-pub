@@ -11,8 +11,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: dev-support
-  
-apiVersion:  backstage.io/v1alpha1
 kind: Component
 metadata:
   name: python-sample-app
