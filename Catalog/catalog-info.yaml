@@ -11,17 +11,3 @@ spec:
   type: service
   lifecycle: experimental
   owner: dev-support
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: todo-react2
-  title: To-do in React2
-  description: A web-based To-do application, written in React. For demonstration purposes only!
-  tags:
-    - react
-    - website
-spec:
-  type: service
-  lifecycle: experimental
-  owner: dev-support
