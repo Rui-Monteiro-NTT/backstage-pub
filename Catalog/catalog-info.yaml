@@ -11,3 +11,17 @@ spec:
   type: service
   lifecycle: experimental
   owner: dev-support
+---
+apiVersion:  backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-sample-app
+  description: This is a sample Python app deployment.
+  tags:
+    - python
+    - web
+    - flask
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:koslog-web
